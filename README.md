@@ -9,7 +9,7 @@ Handwriting recognition is a classic problem in computer vision. This project fo
 ## 🚀 Highlights
 
 - ✅ Applied **Transfer Learning** with VGG16 (or ResNet)
-- 📊 Achieved **XX% accuracy** on test data
+- 📊 Achieved **89% accuracy** on test data
 - 📈 Visualized training metrics (loss/accuracy)
 - 🧠 Compared custom CNN vs pre-trained models
 
