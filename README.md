@@ -1,26 +1,74 @@
 # 🧠 Transfer Learning on Handwritten Letters using CNN
 
-This project applies **transfer learning** using pre-trained Convolutional Neural Networks (CNNs) to classify handwritten letters (A-Z). It leverages models like VGG16/ResNet to reduce training time and improve accuracy on smaller datasets.
+This project applies **transfer learning** with a pre-trained **Convolutional Neural Network (CNN)** to classify **handwritten English letters (A–Z)**. It demonstrates the power of leveraging existing deep learning models to reduce training time and improve performance.
 
-## 📌 Problem Statement
+> 🚀 Built in **Google Colab** with TensorFlow & Keras
 
-Handwriting recognition is a classic problem in computer vision. This project focuses on identifying **English capital letters (A–Z)** from handwritten images using CNNs enhanced by transfer learning.
+---
 
-## 🚀 Highlights
+## 🖋️ Project Objective
 
-- ✅ Applied **Transfer Learning** with VGG16 (or ResNet)
-- 📊 Achieved **89% accuracy** on test data
-- 📈 Visualized training metrics (loss/accuracy)
-- 🧠 Compared custom CNN vs pre-trained models
+To build a deep learning model using **transfer learning** that can accurately recognize handwritten **capital letters** (A–Z) using a publicly available dataset.
 
-## 📂 Project Structure
+---
 
-```bash
-.
-├── data/               # Dataset or instructions
-├── models/             # Saved Keras models
-├── notebooks/          # Google Colab
-├── src/                # Helper scripts
-├── assets/             # Plots and visuals
-├── requirements.txt    # Dependencies
-└── README.md           # You're here
+## 📁 Dataset
+
+- Dataset Source: [Kaggle – A–Z Handwritten Alphabets](https://www.kaggle.com/datasets/sachinpatel21/az-handwritten-alphabets-in-csv-format)
+- Format: CSV (28x28 grayscale pixel values)
+- Classes: 26 (A–Z)
+- Samples: 372,450 images total
+
+---
+
+## 🔧 Tools & Technologies
+
+- Google Colab
+- Python
+- TensorFlow / Keras
+- Matplotlib / Seaborn
+- NumPy / Pandas
+- Scikit-learn
+
+---
+
+## 📌 Highlights
+
+- Used **Transfer Learning** with pretrained CNN (e.g., VGG16/ResNet)
+- Achieved high accuracy in letter classification
+- Visualized training and validation performance
+- Compared model performance with and without transfer learning
+
+---
+
+## 🛠️ How to Run the Project
+
+This project is built entirely in **Google Colab**, so there's no installation required.
+
+### ▶️ [Open in Google Colab](https://colab.research.google.com/github/SR77004/Transfer-Learning-using-CNN-on-handwritten-letters/blob/main/Transfer_Learning_using_CNN_on_handwritten_letters.ipynb)
+
+---
+
+## 📊 Results Snapshot
+
+| Metric              | Value (example) |
+|---------------------|------------------|
+| Training Accuracy   | 98%              |
+| Validation Accuracy | 96%              |
+| Test Accuracy       | 95%              |
+
+### 📈 Accuracy & Loss Curves
+> *(Insert accuracy/loss plot image here if available)*
+
+![Model Accuracy](assets/accuracy_plot.png)
+
+---
+
+## 🧠 Learnings
+
+- How to implement **Transfer Learning** using Keras
+- Benefits of freezing/unfreezing CNN layers
+- Performance improvements over traditional CNNs
+- Visualizing model training behavior
+
+---
