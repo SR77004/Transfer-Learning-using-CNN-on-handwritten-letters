@@ -49,18 +49,13 @@ This project is built entirely in **Google Colab**, so there's no installation r
 
 ---
 
-## 📊 Results Snapshot
+## 📊 Results 
 
 | Metric              | Value (example) |
 |---------------------|------------------|
 | Training Accuracy   | 98%              |
 | Validation Accuracy | 96%              |
 | Test Accuracy       | 95%              |
-
-### 📈 Accuracy & Loss Curves
-> *(Insert accuracy/loss plot image here if available)*
-
-![Model Accuracy](assets/accuracy_plot.png)
 
 ---
 
