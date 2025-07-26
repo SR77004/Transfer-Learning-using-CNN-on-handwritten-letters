@@ -19,7 +19,7 @@ Handwriting recognition is a classic problem in computer vision. This project fo
 .
 ├── data/               # Dataset or instructions
 ├── models/             # Saved Keras models
-├── notebooks/          # Jupyter Notebooks
+├── notebooks/          # Google Colab
 ├── src/                # Helper scripts
 ├── assets/             # Plots and visuals
 ├── requirements.txt    # Dependencies
